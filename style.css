@@ -1,0 +1,45 @@
+.cell{
+    border: 			solid 1px #777;
+    background-size:	cover;
+    background-color: 	#eee;
+    width: 				100%;
+    padding-bottom : 	100%;
+}
+
+.cell:hover
+{
+	background-color: 	#ddd;
+	cursor: 			pointer;
+}
+
+.line1 {
+	width: 				100%;
+	border-bottom: 		1px solid #777;
+	-webkit-transform: 	rotate(-45deg);
+	transform: 			rotate(-45deg);
+	z-index:			99;
+	position:			absolute;
+	top: 				50%;
+	left: 				0;
+}
+
+.line2 {
+	width: 				100%;
+	border-bottom: 		1px solid #777;
+	-webkit-transform: 	rotate(45deg);
+	transform: 			rotate(45deg);
+	z-index:			99;
+	position:			absolute;
+	top: 				50%;
+	left: 				0;
+}
+
+.padding {
+    padding: 			5px;
+}
+
+.score {
+	text-align:			center;
+	font-size:			xx-large;
+	margin-top:			2em;
+}
